@@ -1,11 +1,11 @@
-##first i crated a special vector that set the value 
+##first i created a special vector that set the value 
 ##of and got the value of the vector and set the
 ##value and got the value of the mean then the cachemean function 
-##calculates the the mean of the daqta and sets the value of the mean
+##calculates the the mean of the data and sets the value of the mean
 
 
-##the makeVector creates a special vecor which sets
-##and gets the value og the vector and mean
+##the makeVector creates a special vector which sets
+##and gets the value of the vector and mean
 
 makeCacheMatrix <- function(x = matrix()){
   r <- NULL
@@ -31,7 +31,7 @@ cacheSolve <- function(x, ...){
     return(r)
   }
   mat <- x$get()
-  j <- solve(matt,...)
+  j <- solve(mat,...)
   x$setInverse(r)
   r
 }
